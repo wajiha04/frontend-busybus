@@ -11,7 +11,6 @@ body{
 .container {
   margin: 0 auto;
   width: 375px;
-  height: 812px;
   font-family: sans-serif;
   background-color: #ffffff;
 }
@@ -180,8 +179,7 @@ td {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+
   left: 35.4%;
   height: 44px;
   background-color:#2F80ED ;

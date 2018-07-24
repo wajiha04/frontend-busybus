@@ -4,15 +4,15 @@
 
 body{
   background-color: #E7E7E7;
-  font-family: sf-pro-text;
+  font-family: sans-serif;
   font-size: 16px;
 }
 
 .container {
   margin: 0 auto;
   width: 375px;
-  height: 940px;
-  font-family: sf-pro-text;;
+  height: 812px;
+  font-family: sans-serif;
   background-color: #ffffff;
 }
 
@@ -32,6 +32,7 @@ nav {
   height: 80px;
   font-size: 1.0em;
   z-index: 1;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, .3);
 }
 
 .title-bar {
@@ -90,19 +91,19 @@ input {
   background-color: #EAEBED;
   outline: none;
   top: 65px;
- width: 331px;
+ width: 330px;
  height: 26px;
  border: 1px;
  padding-left: 4px;
 }
 
 .search-box1 {
-  background: ##EAEBED;
+  background: #EAEBED;
   position: absolute;
   top: 63px;
   left: 36.1%;
-  width: 350px;
-  height: 30px;
+  width: 330px;
+  height: 26px;
   line-height: 135px;
   margin: auto;
 }
@@ -113,7 +114,7 @@ input {
 }
 
 .lists {
-  padding-top: 150px;
+  padding-top: 90px;
 }
 
 .exchange{
@@ -134,7 +135,7 @@ input {
 h3 {
   font-size: 16px;
   font-weight: bold;:
-  padding-top: -150px;
+  padding-top: -180px;
   margin-left: 10px;
   margin-bottom: 1px;
 }
@@ -142,7 +143,7 @@ h3 {
 h2 {
   font-size: 16px;
   font-weight: bold;:
-  padding-top: 5px;
+  padding-top: 2px;
   margin-left: 10px;
   margin-bottom: 1px;
 }
@@ -162,8 +163,8 @@ th {
 
 td {
   border-collapse: collapse;
-  padding: 12px;
-  font-size: 15px;
+  padding: 8px;
+  font-size: 14px;
 }
 
 .left{
@@ -171,21 +172,21 @@ td {
 }
 
 .center{
-  width: 2%;
+  width: 3%;
 }
 
 .right{
-  width: 20%;
+  width: 18%;
 }
 
 footer {
   position: fixed;
   bottom: 0;
-  left: 35.35%;
+  left: 35.4%;
   height: 44px;
   background-color:#2F80ED ;
   width: 375px;
-    z-index: 1;
+
 }
 input {
   border: 0px solid;
